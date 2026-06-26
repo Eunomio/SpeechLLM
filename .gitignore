@@ -1,7 +1,3 @@
 analysis_pydeps/
 tmp_ppt_extract/
 semantic_layers/
-outputs/**
-!outputs/
-!outputs/scripts/
-!outputs/scripts/*.py

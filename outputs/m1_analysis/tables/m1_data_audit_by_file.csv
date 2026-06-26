@@ -1,0 +1,16 @@
+﻿model,source_file,rows,ok_rows,unique_trials,duplicate_rows,error_rows
+qwen2.5,m1_qwen25.csv,1512,1512,1512,0,0
+qwen2.5,m1_qwen25_run2.csv,1512,1512,1512,0,0
+qwen2.5,m1_qwen25_run3.csv,1512,1512,1512,0,0
+qwen2.5,m1_qwen25_run4.csv,1512,1512,1512,0,0
+qwen2.5,m1_qwen25_run5.csv,1512,1512,1512,0,0
+qwen3,m1_qwen3.csv,1530,1512,1512,18,18
+qwen3,m1_qwen3_run2.csv,1512,1512,1512,0,0
+qwen3,m1_qwen3_run3.csv,1512,1512,1512,0,0
+qwen3,m1_qwen3_run4.csv,1512,1512,1512,0,0
+qwen3,m1_qwen3_run5.csv,1512,1512,1512,0,0
+qwen3.5,m1_qwen35.csv,1512,1512,1512,0,0
+qwen3.5,m1_qwen35_run2.csv,1512,1512,1512,0,0
+qwen3.5,m1_qwen35_run3.csv,1512,1512,1512,0,0
+qwen3.5,m1_qwen35_run4.csv,1512,1512,1512,0,0
+qwen3.5,m1_qwen35_run5.csv,1512,1512,1512,0,0

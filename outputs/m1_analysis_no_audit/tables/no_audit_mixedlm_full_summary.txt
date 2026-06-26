@@ -1,0 +1,68 @@
+                                 Mixed Linear Model Regression Results
+=======================================================================================================
+Model:                             MixedLM                Dependent Variable:                bias      
+No. Observations:                  4860                   Method:                            ML        
+No. Groups:                        12                     Scale:                             0.2937    
+Min. group size:                   405                    Log-Likelihood:                    -4074.0111
+Max. group size:                   405                    Converged:                         Yes       
+Mean group size:                   405.0                                                               
+-------------------------------------------------------------------------------------------------------
+                                                             Coef.  Std.Err.   z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------------------
+Intercept                                                     0.167    0.118  1.407 0.159 -0.066  0.399
+C(model)[T.qwen3]                                            -0.415    0.081 -5.135 0.000 -0.573 -0.256
+C(model)[T.qwen3.5]                                          -0.263    0.081 -3.255 0.001 -0.421 -0.105
+C(construct)[T.Warmth]                                        0.037    0.081  0.458 0.647 -0.121  0.195
+C(construct)[T.Trust]                                         0.167    0.081  2.063 0.039  0.008  0.325
+C(dialect)[T.CHD]                                            -0.296    0.168 -1.768 0.077 -0.625  0.032
+C(dialect)[T.JNN]                                            -0.426    0.168 -2.542 0.011 -0.754 -0.098
+C(dialect)[T.TYN]                                            -0.722    0.168 -4.311 0.000 -1.051 -0.394
+C(dialect)[T.WHN]                                            -0.463    0.168 -2.763 0.006 -0.791 -0.135
+C(dialect)[T.XIA]                                            -0.574    0.168 -3.426 0.001 -0.902 -0.246
+C(model)[T.qwen3]:C(construct)[T.Warmth]                      0.067    0.114  0.584 0.560 -0.157  0.291
+C(model)[T.qwen3.5]:C(construct)[T.Warmth]                    0.059    0.114  0.519 0.604 -0.165  0.283
+C(model)[T.qwen3]:C(construct)[T.Trust]                      -0.074    0.114 -0.648 0.517 -0.298  0.150
+C(model)[T.qwen3.5]:C(construct)[T.Trust]                    -0.115    0.114 -1.005 0.315 -0.339  0.109
+C(model)[T.qwen3]:C(dialect)[T.CHD]                           0.485    0.114  4.247 0.000  0.261  0.709
+C(model)[T.qwen3.5]:C(dialect)[T.CHD]                        -0.344    0.114 -3.015 0.003 -0.568 -0.121
+C(model)[T.qwen3]:C(dialect)[T.JNN]                           0.563    0.114  4.928 0.000  0.339  0.787
+C(model)[T.qwen3.5]:C(dialect)[T.JNN]                        -0.578    0.114 -5.058 0.000 -0.802 -0.354
+C(model)[T.qwen3]:C(dialect)[T.TYN]                           0.444    0.114  3.890 0.000  0.221  0.668
+C(model)[T.qwen3.5]:C(dialect)[T.TYN]                         0.422    0.114  3.696 0.000  0.198  0.646
+C(model)[T.qwen3]:C(dialect)[T.WHN]                           0.481    0.114  4.215 0.000  0.258  0.705
+C(model)[T.qwen3.5]:C(dialect)[T.WHN]                        -0.415    0.114 -3.631 0.000 -0.639 -0.191
+C(model)[T.qwen3]:C(dialect)[T.XIA]                           0.170    0.114  1.491 0.136 -0.054  0.394
+C(model)[T.qwen3.5]:C(dialect)[T.XIA]                        -0.344    0.114 -3.015 0.003 -0.568 -0.121
+C(construct)[T.Warmth]:C(dialect)[T.CHD]                      0.111    0.114  0.973 0.331 -0.113  0.335
+C(construct)[T.Trust]:C(dialect)[T.CHD]                       0.074    0.114  0.648 0.517 -0.150  0.298
+C(construct)[T.Warmth]:C(dialect)[T.JNN]                      0.333    0.114  2.918 0.004  0.109  0.557
+C(construct)[T.Trust]:C(dialect)[T.JNN]                       0.037    0.114  0.324 0.746 -0.187  0.261
+C(construct)[T.Warmth]:C(dialect)[T.TYN]                      0.333    0.114  2.918 0.004  0.109  0.557
+C(construct)[T.Trust]:C(dialect)[T.TYN]                       0.111    0.114  0.973 0.331 -0.113  0.335
+C(construct)[T.Warmth]:C(dialect)[T.WHN]                      0.204    0.114  1.783 0.075 -0.020  0.428
+C(construct)[T.Trust]:C(dialect)[T.WHN]                       0.185    0.114  1.621 0.105 -0.039  0.409
+C(construct)[T.Warmth]:C(dialect)[T.XIA]                      0.593    0.114  5.187 0.000  0.369  0.817
+C(construct)[T.Trust]:C(dialect)[T.XIA]                       0.519    0.114  4.539 0.000  0.295  0.742
+C(model)[T.qwen3]:C(construct)[T.Warmth]:C(dialect)[T.CHD]   -0.052    0.162 -0.321 0.748 -0.369  0.265
+C(model)[T.qwen3.5]:C(construct)[T.Warmth]:C(dialect)[T.CHD]  0.559    0.162  3.462 0.001  0.243  0.876
+C(model)[T.qwen3]:C(construct)[T.Trust]:C(dialect)[T.CHD]    -0.241    0.162 -1.490 0.136 -0.557  0.076
+C(model)[T.qwen3.5]:C(construct)[T.Trust]:C(dialect)[T.CHD]   0.544    0.162  3.370 0.001  0.228  0.861
+C(model)[T.qwen3]:C(construct)[T.Warmth]:C(dialect)[T.JNN]   -0.167    0.162 -1.032 0.302 -0.483  0.150
+C(model)[T.qwen3.5]:C(construct)[T.Warmth]:C(dialect)[T.JNN]  0.593    0.162  3.668 0.000  0.276  0.909
+C(model)[T.qwen3]:C(construct)[T.Trust]:C(dialect)[T.JNN]    -0.230    0.162 -1.421 0.155 -0.546  0.087
+C(model)[T.qwen3.5]:C(construct)[T.Trust]:C(dialect)[T.JNN]   0.933    0.162  5.777 0.000  0.617  1.250
+C(model)[T.qwen3]:C(construct)[T.Warmth]:C(dialect)[T.TYN]   -0.263    0.162 -1.628 0.104 -0.580  0.054
+C(model)[T.qwen3.5]:C(construct)[T.Warmth]:C(dialect)[T.TYN] -0.107    0.162 -0.665 0.506 -0.424  0.209
+C(model)[T.qwen3]:C(construct)[T.Trust]:C(dialect)[T.TYN]     0.278    0.162  1.719 0.086 -0.039  0.594
+C(model)[T.qwen3.5]:C(construct)[T.Trust]:C(dialect)[T.TYN]   0.200    0.162  1.238 0.216 -0.117  0.517
+C(model)[T.qwen3]:C(construct)[T.Warmth]:C(dialect)[T.WHN]   -0.026    0.162 -0.160 0.873 -0.343  0.291
+C(model)[T.qwen3.5]:C(construct)[T.Warmth]:C(dialect)[T.WHN]  0.722    0.162  4.470 0.000  0.406  1.039
+C(model)[T.qwen3]:C(construct)[T.Trust]:C(dialect)[T.WHN]    -0.215    0.162 -1.330 0.184 -0.531  0.102
+C(model)[T.qwen3.5]:C(construct)[T.Trust]:C(dialect)[T.WHN]   0.526    0.162  3.255 0.001  0.209  0.843
+C(model)[T.qwen3]:C(construct)[T.Warmth]:C(dialect)[T.XIA]   -0.348    0.162 -2.155 0.031 -0.665 -0.031
+C(model)[T.qwen3.5]:C(construct)[T.Warmth]:C(dialect)[T.XIA]  0.170    0.162  1.055 0.292 -0.146  0.487
+C(model)[T.qwen3]:C(construct)[T.Trust]:C(dialect)[T.XIA]    -0.448    0.162 -2.774 0.006 -0.765 -0.131
+C(model)[T.qwen3.5]:C(construct)[T.Trust]:C(dialect)[T.XIA]   0.089    0.162  0.550 0.582 -0.228  0.406
+Group Var                                                     0.010                                    
+text Var                                                      0.102    0.026                           
+=======================================================================================================
